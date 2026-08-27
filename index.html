@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>SCHOOL BOOKSTORE HOUSE</title>
+</head>
+
+<body>
+    <h1>"SCHOOL BOOKSTORE SURVEY"</h1>
+    <p>Please complete the following survey about your book-buying habits!
+    </p>
+
+    <form>
+
+        <!-- Basic Information -->
+        <fieldset>
+            <legend><b>Basic Infomations</b></legend>
+        
+            <label1 for ="name">Name:</label1>
+            <input type ="text" id ="name" name="name">
+            <br></br>
+
+            <label1 for ="address">Address:</label1>
+            <input type ="text" id ="name" name ="name">
+            <br></br>
+
+            <label1 for ="city">City:</label1>
+            <input type ="text" id ="city" name ="city">
+            <br></br>
+ 
+            <label1 for ="zip">ZIP Code:</label1>
+            <input type ="text" id ="zip" name ="zip">
+            <br></br>
+
+            <label1 for ="email">Email:</label1>
+            <input type ="email" id ="email" name ="email">
+            <br></br>
+        </fieldset>
+
+        <br>
+
+        <!-- Survey Questions -->
+         <fieldset>
+            <legend><b>Book Buying Survey Questions</b></legend>
+
+            <p>[1] From where do you usually buy Books?</p>
+
+            <input type ="radio" id ="school" name ="buy_place" value ="school">
+            <label1 for ="school">School Bookstore</label1>
+            <br>
+
+             <input type ="radio" id ="local" name ="buy_place" value ="local">
+            <label1 for ="local">Local Bookstore</label1>
+            <br>
+
+             <input type ="radio" id ="online store" name ="buy_place" value ="online store">
+            <label1 for ="online">Online Store</label1>
+            <br>
+
+             <input type ="radio" id ="friends" name ="buy_place" value ="friends">
+            <label1 for ="friend">Friends/Relatives</label1>
+            <br>
+
+             <input type ="radio" id ="other" name ="buy_place" value ="other">
+            <label1 for ="other">Other</label1>
+
+            <br></br>
+
+            <p>[2] How often do you buy books?</p>
+
+            <select name ="frecuency">
+                <option value="">--Select--</option>
+                <option value="daily">Daily</option>
+                <option value="weekly">Weekly</option>
+                <option value="monthly">Monthly</option>
+                <option value="yearly">Yearly</option>
+                </select>
+
+                <br><br>
+
+            <p>[3] What type of books do you usually buy?</p>
+
+            <input type="checkbox" id="textbook" name="book_type" value="textbook">
+            <label for="textbook">Textbooks</label>
+            <br>
+
+            <input type="checkbox" id="fiction" name="book_type" value="fiction book">
+            <label for="fiction">Fiction book</label>
+            <br>
+
+            <input type="checkbox" id="spritual" name="book_type" value="spritual">
+            <label for="spritual">Spritual Book</label>
+            <br>
+
+            <input type="checkbox" id="autobiography" name="book_type" value="autobiography">
+            <label for="autobiography">autobiography Books</label>
+            <br>
+
+             <input type="checkbox" id="other" name="book_type" value="other">
+            <label for="other">other</label>
+            <br><br>
+
+            <p>[4] How much do you usually spend on books?</p>
+
+            <input type="radio" id="less 500" name="amount" value="less 500">
+            <label for="less 500">less than ₹500</label>
+            <br>
+
+            <input type="radio" id="5001000" name="amount" value="5001000">
+            <label for="5001000">₹500 - ₹1000</label>
+            <br>
+
+             <input type="radio" id="10002000" name="amount" value="10002000">
+            <label for="10002000">₹1000 - ₹2000</label>
+            <br>
+
+             <input type="radio" id="above 2000" name="amount" value="above 2000">
+            <label for="above 2000">above ₹2000</label>
+            <br><br>
+
+            <p>[5] What is the main reason for you to choose a particular place to buy books?</p>
+
+            <select name="reason">
+                <option value="">--select--</option>
+                <option value="variety">Variety of Books</option>
+                <option value="price">low Price</option>
+                <option value="location">Convenient Location</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+
+            <p>[6]Any suggestions for the school bookstore?</p>
+
+             <textarea name="suggestions" rows="5" cols="40"
+                placeholder="Enter your suggestions here..."></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Submit Survey">
+            <input type="reset" value="Reset">
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
